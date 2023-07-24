@@ -1,0 +1,85 @@
+Berikut adalah contoh praktek sederhana dalam basis data dengan menggunakan bahasa SQL (Structured Query Language):
+
+1. Pembuatan Tabel (CREATE TABLE):
+```sql
+CREATE TABLE Mahasiswa (
+    nim INT PRIMARY KEY,
+    nama VARCHAR(50),
+    jurusan VARCHAR(50),
+    angkatan INT
+);
+```
+
+2. Penambahan Data (INSERT INTO):
+```sql
+INSERT INTO Mahasiswa (nim, nama, jurusan, angkatan)
+VALUES (123456, 'John Doe', 'Teknik Informatika', 2020);
+```
+
+3. Pengambilan Data (SELECT):
+```sql
+SELECT * FROM Mahasiswa;
+```
+
+4. Pengubahan Data (UPDATE):
+```sql
+UPDATE Mahasiswa
+SET angkatan = 2021
+WHERE nim = 123456;
+```
+
+5. Penghapusan Data (DELETE):
+```sql
+DELETE FROM Mahasiswa
+WHERE nim = 123456;
+```
+
+6. Kueri Gabungan (JOIN):
+```sql
+SELECT Mahasiswa.nama, MataKuliah.nama AS nama_mk, Nilai.nilai
+FROM Mahasiswa
+JOIN Nilai ON Mahasiswa.nim = Nilai.nim
+JOIN MataKuliah ON Nilai.kode_mk = MataKuliah.kode_mk;
+```
+
+7. Pemilihan Data dengan Kriteria (WHERE):
+```sql
+SELECT nama, angkatan
+FROM Mahasiswa
+WHERE jurusan = 'Teknik Informatika';
+```
+
+8. Pengelompokan Data (GROUP BY):
+```sql
+SELECT jurusan, COUNT(*) AS jumlah_mahasiswa
+FROM Mahasiswa
+GROUP BY jurusan;
+```
+
+9. Urutan Data (ORDER BY):
+```sql
+SELECT nama, angkatan
+FROM Mahasiswa
+ORDER BY angkatan DESC;
+```
+
+10. Penyaringan Data (LIKE):
+```sql
+SELECT nama
+FROM Mahasiswa
+WHERE nama LIKE '%Doe%';
+```
+
+11. Pemilihan Data Unik (DISTINCT):
+```sql
+SELECT DISTINCT jurusan
+FROM Mahasiswa;
+```
+
+12. Fungsi Agregat (SUM, AVG, COUNT, MAX, MIN):
+```sql
+SELECT AVG(nilai) AS rata_rata_nilai
+FROM Nilai;
+```
+
+Itulah beberapa contoh praktek sederhana dalam basis data dengan menggunakan bahasa SQL. Perlu dicatat bahwa contoh-contoh di atas mungkin akan berbeda tergantung pada jenis basis data yang digunakan (misalnya MySQL, PostgreSQL, SQL Server, dsb.) dan struktur tabel yang dibuat.

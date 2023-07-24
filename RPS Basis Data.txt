@@ -1,0 +1,47 @@
+Judul Modul: Pengenalan Basis Data dan Manajemen Sistem Basis Data
+
+Modul ini bertujuan untuk memberikan pemahaman tentang basis data dan manajemen sistem basis data. Modul ini cocok untuk pemula yang ingin memahami konsep dasar basis data, serta cara mengelola dan memanfaatkannya dalam aplikasi atau sistem.
+
+Durasi Modul: 8 jam (dapat disesuaikan)
+
+Daftar Isi Modul:
+
+1. Pengenalan Basis Data
+   - Pengertian Basis Data
+   - Tujuan dan Manfaat Penggunaan Basis Data
+   - Model Data dalam Basis Data
+
+2. Manajemen Sistem Basis Data (Database Management System - DBMS)
+   - Pengertian DBMS
+   - Jenis-jenis DBMS
+   - Fungsi dan Komponen DBMS
+
+3. Perancangan Basis Data
+   - Tahapan Perancangan Basis Data
+   - Entity-Relationship Diagram (ERD)
+   - Normalisasi Basis Data
+
+4. Bahasa Query dalam Basis Data
+   - Pengenalan Bahasa Query (SQL)
+   - Kueri Dasar: SELECT, INSERT, UPDATE, DELETE
+   - Operasi Join dan Subkueri
+
+5. Pengelolaan Tabel dan Data
+   - Pembuatan Tabel
+   - Pengelolaan Data: Penambahan, Pengubahan, Penghapusan Data
+   - Pengindeksan dan Pengamanan Data
+
+6. Transaksi dan Pemulihan Data
+   - Pengenalan Transaksi
+   - Properti ACID (Atomicity, Consistency, Isolation, Durability)
+   - Pemulihan Data (Recovery)
+
+7. Manajemen Basis Data Terpusat dan Terdistribusi
+   - Pengenalan Basis Data Terpusat dan Terdistribusi
+   - Keuntungan dan Tantangan Basis Data Terdistribusi
+
+8. Basis Data dan Aplikasi
+   - Integrasi Basis Data dengan Aplikasi
+   - Penggunaan Basis Data dalam Aplikasi Bisnis
+
+Setiap sub-modul dalam modul ini akan dilengkapi dengan contoh-contoh praktis dan latihan untuk menguji pemahaman peserta. Modul ini dapat diajarkan secara langsung oleh pengajar atau dapat diakses sebagai sumber belajar mandiri oleh peserta. Modul ini juga dapat diadaptasi dan dikembangkan sesuai dengan kebutuhan dan tingkat pemahaman peserta.
