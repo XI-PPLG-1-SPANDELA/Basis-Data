@@ -1,0 +1,131 @@
+======================================================
+Tugas DBMS 
+Senin 28 Agustus 2023 
+======================================================
+1.DBMS adalah singkatan dari "Database Management System" atau Sistem Manajemen Basis Data.
+Ini adalah perangkat lunak yang digunakan untuk membuat, mengelola, dan mengelola basis data.
+Basis data adalah kumpulan informasi yang terstruktur yang disimpan dalam suatu sistem komputer dan dapat diakses, 
+dikelola, dan diperbarui dengan efisien.
+
+
+
+2.Komponen utama dari sebuah Database Management System (DBMS) meliputi:
+
+1. *Database:* Tempat penyimpanan semua data yang diatur dalam struktur yang terdefinisi. Basis data bisa memiliki berbagai jenis struktur, seperti basis data relasional, basis data berorientasi dokumen, basis data berorientasi grafik, dan lain-lain.
+
+2. *DBMS Software:* Perangkat lunak yang mengelola dan mengendalikan basis data. Ini termasuk bagian untuk mengelola akses data, memproses permintaan, menjalankan query, dan menjaga integritas dan keamanan data.
+
+3. *Data Models:* Cara di mana data diorganisasi dan dihubungkan dalam basis data. Contoh model data termasuk model relasional, model hierarki, model jaringan, dan model dokumen.
+
+4. *Query Language:* Bahasa yang digunakan untuk berinteraksi dengan basis data. SQL (Structured Query Language) adalah bahasa query yang umum digunakan dalam basis data relasional.
+
+5. *Data Dictionary:* Informasi tentang struktur basis data, definisi skema, atribut, dan relasi yang ada dalam basis data. Ini membantu dalam pengelolaan metadata dan dokumentasi.
+
+6. *Database Schema:* Desain dan struktur dari basis data, termasuk tabel, kolom, indeks, dan relasi. Skema mendefinisikan bagaimana data akan disimpan dan diakses.
+
+7. *Data Manipulation Tools:* Alat untuk memasukkan, memperbarui, menghapus, dan mengelola data dalam basis data.
+
+8. *Data Security and Authorization:* Komponen yang mengatur izin dan tingkat akses pengguna ke data tertentu dalam basis data. Ini membantu menjaga integritas dan kerahasiaan data.
+
+9. *Transaction Management:* Pengelolaan transaksi, yang memastikan bahwa operasi yang melibatkan perubahan data dapat dijalankan dengan aman dan konsisten.
+
+10. *Data Backup and Recovery:* Proses pencadangan dan pemulihan data dalam kasus kegagalan sistem atau kerusakan data.
+
+11. *Data Integrity and Constraints:* Aturan yang diterapkan pada data untuk memastikan bahwa data tetap konsisten dan akurat. Ini bisa termasuk pembatasan unik, not null, foreign key, dan lain-lain.
+
+12. *Concurrency Control:* Manajemen akses bersamaan oleh beberapa pengguna ke data yang sama untuk menghindari konflik atau inkonsistensi data.
+
+Setiap komponen ini berkontribusi dalam pengelolaan dan penggunaan efektif dari basis data dalam lingkungan DBMS.
+
+
+
+3,Database Management System (DBMS) memiliki beberapa fungsi penting untuk mengelola dan memanipulasi data dalam basis data. Berikut ini beberapa fungsi utama dari DBMS:
+
+Penyimpanan Data: DBMS berfungsi sebagai penyimpan data yang terstruktur dan terorganisir. Ini memungkinkan data disimpan dengan cara yang efisien dan dapat diakses dengan mudah.
+
+Pengambilan Data: DBMS memungkinkan pengguna untuk mengambil data dari basis data dengan menggunakan bahasa query seperti SQL. Ini memungkinkan pengambilan data yang spesifik dan efisien.
+
+Pengelolaan Data: DBMS memungkinkan pengguna untuk memasukkan, memperbarui, dan menghapus data dalam basis data. Ini memastikan bahwa data tetap akurat dan terkini.
+
+Data Query dan Manipulation: Pengguna dapat menjalankan query kompleks untuk mengambil data yang dibutuhkan. DBMS juga memungkinkan manipulasi data seperti penggabungan, pengurutan, dan perhitungan.
+
+Data Security: DBMS memiliki fitur keamanan yang memungkinkan pengaturan izin akses, autentikasi pengguna, dan enkripsi data. Ini melindungi data dari akses yang tidak sah.
+
+Integritas Data: DBMS menjaga integritas data dengan menerapkan batasan-batasan pada data yang dimasukkan. Ini termasuk aturan unik, batasan null, dan keterkaitan antara data.
+
+Kontrol Akses: DBMS mengelola akses pengguna ke data dengan mengontrol izin dan tingkat akses. Ini memastikan hanya pengguna yang diotorisasi yang dapat mengakses data tertentu.
+
+Transaksi dan Konsistensi: DBMS mendukung transaksi yang melibatkan perubahan data, dan memastikan konsistensi data dalam situasi multi-user dan berbagi data.
+
+Pemulihan Data: DBMS memiliki kemampuan pemulihan yang memungkinkan untuk mengembalikan data ke kondisi yang konsisten setelah kegagalan sistem atau data.
+
+Pembuatan dan Pemeliharaan Basis Data: DBMS memungkinkan pembuatan skema basis data dan mengelola perubahan struktur. Ini termasuk pembuatan tabel, indeks, dan hubungan.
+
+
+
+
+
+4.*SQL (Structured Query Language):*
+SQL (Structured Query Language) adalah bahasa pemrograman yang digunakan untuk mengelola dan berinteraksi dengan basis data relasional. SQL digunakan untuk membuat, mengelola, mengambil, memperbarui, dan menghapus data dalam basis data. Ini adalah standar industri yang banyak digunakan dalam manajemen basis data.
+
+SQL memiliki beberapa subbahasa yang mencakup berbagai aspek pengelolaan basis data:
+
+1. *Data Definition Language (DDL):* Bahasa yang digunakan untuk mendefinisikan struktur dan skema basis data, seperti tabel, kolom, indeks, dan kunci.
+
+2. *Data Manipulation Language (DML):* Bahasa yang digunakan untuk memanipulasi data dalam basis data, termasuk mengambil, memasukkan, memperbarui, dan menghapus data.
+
+3. *Data Control Language (DCL):* Bahasa yang digunakan untuk mengatur hak akses dan izin pengguna terhadap data dalam basis data.
+
+4. *Transaction Control Language (TCL):* Bahasa yang digunakan untuk mengelola transaksi, termasuk mengendalikan komit dan pembatalan transaksi.
+
+Contoh perintah SQL termasuk `SELECT` untuk mengambil data, `INSERT` untuk memasukkan data, `UPDATE` untuk memperbarui data, dan `DELETE` untuk menghapus data.
+
+*DDL (Data Definition Language):*
+DDL adalah bagian dari SQL yang digunakan untuk mendefinisikan struktur dan skema dari basis data. DDL mencakup perintah-perintah yang digunakan untuk membuat, mengubah, dan menghapus objek-objek dalam basis data. Beberapa perintah DDL meliputi:
+
+- `CREATE TABLE`: Membuat tabel baru dalam basis data.
+- `ALTER TABLE`: Mengubah struktur tabel, seperti menambahkan atau menghapus kolom.
+- `DROP TABLE`: Menghapus tabel dari basis data.
+- `CREATE INDEX`: Membuat indeks pada tabel untuk meningkatkan performa query.
+
+*DML (Data Manipulation Language):*
+DML adalah bagian dari SQL yang digunakan untuk memanipulasi data dalam basis data. DML mencakup perintah-perintah yang digunakan untuk mengambil, memasukkan, memperbarui, dan menghapus data dalam tabel. Beberapa perintah DML meliputi:
+
+- `SELECT`: Mengambil data dari tabel.
+- `INSERT`: Memasukkan data baru ke dalam tabel.
+- `UPDATE`: Memperbarui data yang ada dalam tabel.
+- `DELETE`: Menghapus data dari tabel.
+
+DML memungkinkan pengguna untuk melakukan operasi-operasi yang berhubungan dengan data di dalam basis data relasional.
+
+
+
+
+
+5.SQL (Structured Query Language) memiliki beberapa fungsi utama yang digunakan untuk mengelola, mengambil, dan memanipulasi data dalam basis data relasional. Berikut ini beberapa fungsi SQL beserta penjelasannya:
+
+1. *SELECT:* Fungsi `SELECT` digunakan untuk mengambil data dari tabel atau beberapa tabel dalam basis data. Query dengan perintah `SELECT` memungkinkan Anda untuk menentukan kolom-kolom yang ingin diambil, serta kriteria filter untuk membatasi data yang diambil.
+
+2. *INSERT:* Fungsi `INSERT` digunakan untuk memasukkan data baru ke dalam tabel. Anda dapat menyediakan nilai-nilai yang sesuai untuk setiap kolom dalam baris yang akan dimasukkan.
+
+3. *UPDATE:* Fungsi `UPDATE` digunakan untuk memperbarui data yang ada dalam tabel. Anda dapat memperbarui nilai-nilai dalam kolom-kolom tertentu berdasarkan kriteria tertentu.
+
+4. *DELETE:* Fungsi `DELETE` digunakan untuk menghapus data dari tabel. Anda dapat menghapus baris-baris yang memenuhi kriteria tertentu.
+
+5. *CREATE:* Fungsi `CREATE` digunakan dalam perintah DDL (Data Definition Language) untuk membuat objek baru dalam basis data, seperti tabel, indeks, atau tampilan.
+
+6. *ALTER:* Fungsi `ALTER` digunakan dalam perintah DDL untuk mengubah struktur objek dalam basis data. Anda dapat menambahkan kolom, mengubah tipe data, atau melakukan perubahan lain pada tabel atau objek lainnya.
+
+7. *DROP:* Fungsi `DROP` digunakan dalam perintah DDL untuk menghapus objek dari basis data. Ini dapat digunakan untuk menghapus tabel, indeks, tampilan, dan lain-lain.
+
+8. *JOIN:* Fungsi `JOIN` digunakan untuk menggabungkan data dari dua atau lebih tabel berdasarkan kolom-kolom yang memiliki nilai-nilai yang sesuai.
+
+9. *GROUP BY:* Fungsi `GROUP BY` digunakan bersamaan dengan fungsi agregat seperti `SUM`, `COUNT`, `AVG`, dll., untuk mengelompokkan data berdasarkan nilai-nilai tertentu dalam satu atau beberapa kolom.
+
+10. *ORDER BY:* Fungsi `ORDER BY` digunakan untuk mengurutkan hasil query berdasarkan nilai-nilai dalam satu atau beberapa kolom.
+
+11. *HAVING:* Fungsi `HAVING` digunakan untuk menerapkan kriteria filter pada hasil query yang telah dikelompokkan dengan menggunakan `GROUP BY`.
+
+12. *DISTINCT:* Fungsi `DISTINCT` digunakan untuk mengambil nilai-nilai unik dari kolom tertentu dalam tabel.
+
+SQL memiliki banyak fungsi lainnya yang membantu dalam pengelolaan data, pengambilan informasi, dan analisis dalam basis data. Setiap fungsi memiliki peran penting dalam menjalankan operasi yang berbeda pada data.
